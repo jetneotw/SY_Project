@@ -1,6 +1,8 @@
 # Use the Request library
 import requests
 
+#testing
+
 # Set the target webpage
 url = "http://www.wikipedia.org"
 webpage = requests.get(url)
@@ -29,6 +31,5 @@ url2 = 'http://httpbin.org/headers'
 request_header = requests.get(url2, headers=headers)
 print(request_header.text)
 
-#testing
-#testing script
+
 
